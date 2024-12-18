@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carreira Acadêmica de Bento de Jesus Caraça</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #1e90ff;
+        }
+        footer {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        button {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #1e90ff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carreira Acadêmica de Bento de Jesus Caraça</h1>
+    </header>
+    <main>
+        <section id="introducao">
+            <h2>Introdução</h2>
+            <p>Bento de Jesus Caraça (1901 - 1948) foi um matemático, professor e intelectual português que se destacou por suas contribuições à ciência e à cultura em Portugal.</p>
+        </section>
+        <section id="carreira">
+            <h2>Carreira Acadêmica</h2>
+            <p>Bento de Jesus Caraça foi professor no Instituto Superior de Ciências Económicas e Financeiras, onde lecionou Matemática e deixou um legado importante na formação de diversas gerações de estudantes.</p>
+            <button onclick="mostrarDetalhes()">Saiba mais</button>
+            <p id="detalhes" style="display: none;">Ele escreveu obras como <em>Conceitos Fundamentais da Matemática</em>, buscando popularizar o conhecimento matemático. Além disso, foi um defensor do ensino acessível e da democratização do conhecimento.</p>
+        </section>
+        <section id="legado">
+            <h2>Legado</h2>
+            <p>Além de suas contribuições à matemática, Bento de Jesus Caraça foi um ativo defensor da liberdade e dos direitos humanos, o que marcou profundamente sua trajetória.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Página dedicada a Bento de Jesus Caraça</p>
+    </footer>
+    <script>
+        function mostrarDetalhes() {
+            const detalhes = document.getElementById('detalhes');
+            if (detalhes.style.display === 'none') {
+                detalhes.style.display = 'block';
+            } else {
+                detalhes.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

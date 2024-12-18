@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Dinâmico</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.3s ease;
+      z-index: 1000;
+    }
+
+    header.hidden {
+      transform: translateY(-100%);
+    }
+
+    main {
+      padding: 100px 20px;
+      height: 200vh; /* Conteúdo longo para permitir rolagem */
+    }
+  </style>
+</head>
+<body>
+  <header id="header">Este é o cabeçalho fixo</header>
+  <main>
+    <p>Role para testar o comportamento do cabeçalho.</p>
+    <p>Continue rolando para ver o cabeçalho desaparecer e reaparecer!</p>
+  </main>
+  <script src="../js/he.js"></script>
+</body>
+</html>
