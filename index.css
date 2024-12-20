@@ -470,7 +470,7 @@ footer {
    }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 380px) {
         body{  width: 100%;}
   #tri{
     p{
