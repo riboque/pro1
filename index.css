@@ -18,6 +18,7 @@ body {
     margin: 0;
     padding: 0;
     color: #222;
+          width: 100%;
 }
 
 
@@ -470,6 +471,7 @@ footer {
 }
 
 @media (max-width: 480px) {
+        body{  width: 100%;}
   #tri{
     p{
       font-size: 17px;
