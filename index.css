@@ -471,7 +471,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-        main{   width: 350px;}
+        main{   width: 300px;}
   #tri{
     p{
       font-size: 17px;
