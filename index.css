@@ -471,7 +471,8 @@ footer {
 }
 
 @media (max-width: 480px) {
-#header{ width: 300px;}
+        body{width:100%}
+#header{ width: 100%;}
 
 
         
