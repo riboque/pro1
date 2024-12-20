@@ -471,12 +471,12 @@ footer {
 }
 
 @media (max-width: 480px) {
-        body{width:400px}
+        body{width:330px}
 #header{ width: 100%;}
 
 
         
-        main{   width: 300px;}
+        main{   width: 320px;}
   #tri{
     p{
       font-size: 17px;
