@@ -473,11 +473,12 @@ footer {
 @media (max-width: 480px) {
         body{width:200px}
 #header{ width: 100%; 
-       display:none;}
+      display:none;}
 
 
         
-        main{   width: 300px;}
+        main{   width: 300px;
+            }
   #tri{
     p{
       font-size: 17px;
