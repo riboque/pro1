@@ -14,11 +14,11 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.8;
-    background-color:#fe5;
+    background-color:#f9f9f9;
     margin: 0;
     padding: 0;
     color: #222;
-         
+           width: 50%;
 }
 
 
