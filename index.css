@@ -452,6 +452,13 @@ footer {
 
 @media (max-width: 480px) {
         
+  #tri {
+    p {
+      font-size: 17px;
+      width: 100%;
+
+    }
+  }
   footer {
     display: none;
   }
@@ -464,6 +471,8 @@ footer {
     margin-left: -500;
     width: 90%;
     height: 300px;
+          margin:0;
+          padding:0;
   }
         
 #foo {
