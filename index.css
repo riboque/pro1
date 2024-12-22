@@ -464,6 +464,21 @@ footer {
   }
 
 
+  #lar {
+    display: none;
+  }
+
+  #pri {
+    #ha {
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+
+  #seg {
+    display: none;
+  }
 
 
 
