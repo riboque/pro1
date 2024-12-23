@@ -445,34 +445,24 @@ footer {
 
 
 
-@media (max-width: 480px) {
-        #mam{dispaly:none;}
-  #tri {
-    p {
-      font-size: 17px;
-      width: 100%;
 
-    }
+@media (max-width: 480px) {
+  #mam {
+    display: none;
+  }
+  #tri p {
+    font-size: 17px;
+    width: 100%;
   }
   footer {
     display: none;
   }
-
-
   #lar {
     display: none;
   }
-
-  #pri {
-    #ha {
-      width: 300px;
-      height: 300px;
-    }
-  }
-
-
-  #seg {
-    display: none;
+  #pri #ha {
+    width: 300px;
+    height: 300px;
   }
 
 
