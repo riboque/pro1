@@ -448,7 +448,7 @@ footer {
 
 @media (max-width: 480px) {
   #mam {
-    display: none;
+    display: block;
           pri{display:block;}
   }
   #tri p {
@@ -461,9 +461,10 @@ footer {
   #lar {
     display: none;
   }
-  #pri #ha {
+ #ha {
     width: 300px;
     height: 300px;
+         display:block;
   }
 
 
