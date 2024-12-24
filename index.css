@@ -448,8 +448,8 @@ footer {
 
 @media (max-width: 480px) {
   #mam {
-    display: block;
-          pri{display:block;}
+    display: none;
+          
   }
   #tri p {
     font-size: 17px;
